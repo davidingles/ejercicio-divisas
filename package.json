@@ -1,0 +1,40 @@
+{
+  "name": "ejercicio-divisas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 2
+        },
+        {
+          "maxEOF": 0
+        }
+      ],
+      "indent": [
+        "error",
+        4
+      ]
+    }
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
